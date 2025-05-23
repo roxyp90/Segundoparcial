@@ -65,7 +65,7 @@ public class LaberintoUniversitario {
     }
 
     public class promedioImpares (int[][] matriz){
-        int n = 10; // Número de elementos a considerar
+        int n = 5; // Número de elementos a considerar
         int suma = 0;
         int contador = 0;
 
