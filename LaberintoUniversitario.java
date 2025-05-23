@@ -65,7 +65,19 @@ public class LaberintoUniversitario {
     }
 
     public class promedioImpares (int[][] matriz){
-        
+        int n = 10; // Número de elementos a considerar
+        int suma = 0;
+        int contador = 0;
+
+        for (int i = 1; i <= n; i += 2) {
+            suma += i;
+            contador++;
+        }
+
+        double promedio = (double) suma / contador;
+
+        System.out.println("El promedio de los primeros " + n + " números impares es: " + promedio);
+    
     }
 
     public static void sumaFilas (int[][] matriz){
